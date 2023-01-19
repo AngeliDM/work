@@ -65,12 +65,88 @@ table {
 	padding-left: 30px;
 	padding-right: 30px;
 	width: 960px;
-	border: 4px solid black;
 
 }
 
-/*Typography*/
+/*
+=========================================
+Clearfix
+=========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo {
+	float: left;
+	border-top: 4px solid #648880;
+	padding: 40px 0 22px 0;
+	
+  }
+
+  /*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer small{
+	float: left;
+}
+.primary-footer{
+padding-bottom: 44px;
+padding-top: 44px;
+}
+
+
+/*
+=========================================
+Typography
+=========================================
+*/
 
 h1, h3, h4, h5, p{
 	margin-bottom: 22px;
 }
+
+/* 
+========================================
+Buttons
+========================================
+ */
+
+ .btn{
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0;
+ }
+ .btn-alt{
+	border: 1px solid #dfe2e5;
+	padding: 10px 30px;
+ }
+
+
+ /* 
+========================================
+Home
+========================================
+ */
+
+ .hero{
+	padding: 22px 80px 66px 80px;
+ }
