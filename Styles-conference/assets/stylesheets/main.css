@@ -222,6 +222,16 @@ Buttons
 	color: #648880;
  }
 
+ .btn-default {
+	border: 0;
+	background: #648880;
+	padding: 10px 20px;
+	font-size: 14px;
+ }
+ .btn-default:hover{
+	background: #77a198 ;
+ }
+
 
  /* 
 ========================================
@@ -408,4 +418,20 @@ textarea {
 .register-group select,
 .register-group textarea {
 	display: block;
+	border: 1px solid #c6c9cc;
+	border-radius: 5px;
+	color: #888;
+	margin: 1px 0 15px 0;
+	padding: 5px 8px;
+}
+.register-group input,
+.register-group textarea {
+	width: 100%;
+}
+.register-group select {
+	height: 34px;
+	width: 40px;
+}
+.register-group textarea {
+	height: 78px;
 }
