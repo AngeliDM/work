@@ -439,6 +439,7 @@ textarea {
 /* 
 =======================================
 Schedule
+=======================================
 */
 
 table {
@@ -447,4 +448,9 @@ table {
 }
 table:last-child {
 	margin-bottom: 0;
+}
+th,
+td {
+	padding-bottom:22px;
+	vertical-align: top;
 }
