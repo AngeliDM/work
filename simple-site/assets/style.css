@@ -1,0 +1,41 @@
+body {
+    background: rgb(104, 197, 226);
+    color: white;
+    border: 5px solid rgb(65, 179, 65);
+    margin: 4%;
+    text-align: center;
+}
+
+/*
+====================================
+lists
+====================================
+*/
+
+a {
+    color: rgb(65, 179, 65);
+    text-decoration: underline;
+}
+li {
+    float: right;
+    border-right: 1px solid rgb(59, 55, 55);
+
+}
+li:last-child {
+    border-right: none;
+}
+
+ /*
+ ==================================
+ Paragraphs
+ ==================================
+ */
+ body p {
+    text-align: justify;
+    float: left;
+ }
+ img {
+    float: right;
+    height: 30%;
+    width: 30%
+ }
