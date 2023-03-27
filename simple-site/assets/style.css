@@ -1,41 +1,65 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+
 body {
+    max-width: 600px;
+    margin: 0 auto;
     background: rgb(104, 197, 226);
     color: white;
+    text-align: center;
     border: 5px solid rgb(65, 179, 65);
     margin: 4%;
-    text-align: center;
 }
+
 
 /*
 ====================================
-lists
+navigation menus
 ====================================
 */
 
+nav {
+    margin: 0,auto;
+    border: 1px solid black;
+}
 a {
     color: rgb(65, 179, 65);
     text-decoration: underline;
 }
 li {
-    float: right;
+    
     border-right: 1px solid rgb(59, 55, 55);
+    list-style-type: none;
+    padding: 0 2%;
+    float: left;
+    border: 1px solid red;
 
 }
-li:last-child {
+li:first-child {
     border-right: none;
 }
+
+
 
  /*
  ==================================
  Paragraphs
  ==================================
  */
- body p {
+ p,
+ h2 {
     text-align: justify;
-    float: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    
  }
  img {
     float: right;
-    height: 30%;
-    width: 30%
+    height: 25%;
+    width: 25%;
+    padding: .5em;
  }
