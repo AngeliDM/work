@@ -8,11 +8,20 @@
 body {
     max-width: 600px;
     margin: 0 auto;
-    background: rgb(104, 197, 226);
+    max-height: auto;
+    background: rgb(124, 199, 222);
     color: white;
     text-align: center;
-    border: 5px solid rgb(65, 179, 65);
+    border: 5px solid rgb(75, 180, 75);
     margin: 4%;
+    font-family: "Roboto slab" , serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 2em;
+    font-weight: 400;
 }
 
 
@@ -23,43 +32,49 @@ navigation menus
 */
 
 nav {
-    margin: 0,auto;
-    border: 1px solid black;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+
 }
 a {
-    color: rgb(65, 179, 65);
+    color: rgb(75, 180, 75);
     text-decoration: underline;
 }
 li {
     
-    border-right: 1px solid rgb(59, 55, 55);
+    border-left: 2px solid rgb(59, 55, 55);
+    line-height: .75em;
     list-style-type: none;
     padding: 0 2%;
-    float: left;
-    border: 1px solid red;
-
+    display: inline-block;
+    font-weight: bold;
+    font-family: "roboto", sans-serif;
+   
 }
 li:first-child {
-    border-right: none;
+    border-style: hidden;
 }
-
-
 
  /*
  ==================================
  Paragraphs
  ==================================
  */
- p,
+ p {
+    text-align: justify;
+    padding: 0 2em;
+ }
+
  h2 {
     text-align: justify;
-    padding-left: 2em;
-    padding-right: 2em;
-    
+    padding: 0 1.5em;
+    font-family: "roboto", sans-serif;
  }
+ 
  img {
     float: right;
-    height: 25%;
-    width: 25%;
+    height: 30%;
+    width: 30%;
     padding: .5em;
+    margin: .5em;
  }
